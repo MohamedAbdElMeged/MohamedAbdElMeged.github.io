@@ -4,10 +4,9 @@
 <meta charset="utf-8">
 <title>Add To Meee</title>
 <link rel="manifest" href="manifest.json">
-
+ </head>
 <body>
-</body>
-<script> 
+    <script> 
 if ('serviceWorker' in navigator) 
 {    console.log("Will the service worker register?");
     navigator.serviceWorker.register('service-worker.js')
@@ -17,4 +16,6 @@ if ('serviceWorker' in navigator)
                  console.log("No it didn't. This happened:", err)    });
 }
 </script>
+</body>
+
 </html>
